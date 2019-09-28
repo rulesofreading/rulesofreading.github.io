@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ii</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .combinations-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            background-color: #2196F3;
+            border-radius: 2px;
+        }
+
+        .combination-item {
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            margin: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<a href="../index.html">
+    <div class="homeButton">Home</div>
+</a>
+
+<div class="combinations-container">
+    <div class="combination-item " id="openSyllable" onclick="setLinkInVideo(this)">Откр. слог</div>
+    <div class="combination-item" id="closedSyllable" onclick="setLinkInVideo(this)">Закр. слог</div>
+    <div class="combination-item" id="without impact" onclick="setLinkInVideo(this)">без удар.</div>
+    <div class="combination-item" id="ir" onclick="setLinkInVideo(this)">ir</div>
+    <div class="combination-item" id="ire,iar" onclick="setLinkInVideo(this)">ire,iar</div>
+    <div class="combination-item" id="ie" onclick="setLinkInVideo(this)">ie</div>
+    <div class="combination-item" id="ie_" onclick="setLinkInVideo(this)">ie</div>
+    <div class="combination-item" id="igh,ig+n,ind,ild,ign" onclick="setLinkInVideo(this)">igh,ig+n,ind,ild,ign</div>
+
+    <div class="combination-item">[ai]</div>
+    <div class="combination-item">[i]</div>
+    <div class="combination-item">[i]</div>
+    <div class="combination-item">[&#601:]</div>
+    <div class="combination-item">[ai&#601]</div>
+    <div class="combination-item">[ai]</div>
+    <div class="combination-item">[i:]</div>
+    <div class="combination-item">[ai]</div>
+
+</div>
+
+<iframe id="video" class="video" src="" allow="autoplay"></iframe>
+<script src="../js/I.js"></script>
+</body>
+</html>

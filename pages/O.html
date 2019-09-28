@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oo</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .combinations-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            background-color: #2196F3;
+            border-radius: 2px;
+        }
+
+        .combination-item {
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            margin: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<a href="../index.html">
+    <div class="homeButton">Home</div>
+</a>
+<div class="combinations-container">
+    <div class="combination-item " id="openSyllable" onclick="setLinkInVideo(this)">Откр. слог</div>
+    <div class="combination-item" id="closedSyllable" onclick="setLinkInVideo(this)">Закр. слог</div>
+    <div class="combination-item" id="without impact" onclick="setLinkInVideo(this)">без удар.</div>
+    <div class="combination-item" id="or,ore" onclick="setLinkInVideo(this)">or,ore</div>
+    <div class="combination-item" id="m,n,th,v" onclick="setLinkInVideo(this)">перед<br>m,n,th,v</div>
+    <div class="combination-item" id="oi,oy" onclick="setLinkInVideo(this)">oi,oy</div>
+    <div class="combination-item" id="oo" onclick="setLinkInVideo(this)">oo</div>
+    <div class="combination-item" id="ou" onclick="setLinkInVideo(this)">ou</div>
+    <div class="combination-item" id="oa" onclick="setLinkInVideo(this)">oa</div>
+    <div class="combination-item" id="ow" onclick="setLinkInVideo(this)">ow</div>
+
+    <div class="combination-item">[&#601u:]</div>
+    <div class="combination-item">[&#596]</div>
+    <div class="combination-item">[&#601]</div>
+    <div class="combination-item">[&#596:]</div>
+    <div class="combination-item">[&#652]</div>
+    <div class="combination-item">[&#596i]</div>
+    <div class="combination-item">[u(:)]</div>
+    <div class="combination-item">[au]</div>
+    <div class="combination-item">[&#601u]</div>
+    <div class="combination-item">[au][&#601u]</div>
+
+</div>
+
+<iframe id="video" class="video" src="" allow="autoplay"></iframe>
+<script src="../js/O.js"></script>
+</body>
+</html>

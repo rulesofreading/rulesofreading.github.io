@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(78, 91, 116, 0.8);
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.combinations-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: #2196F3;
+    border-radius: 2px;
+}
+
+.combination-item {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.combination-item:hover {
+    background-color: #24349a;
+    color: white;
+}
+
+.video {
+    position: fixed;
+    top: 230px;
+    left: 10px;
+    width: 820px;
+    height: 550px;
+    border-radius: 2px;
+    border: none;
+}
+
+.homeButton{
+    width: 60px;
+    height: 60px;
+    background-color: #1e6f19;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 3.5;
+    color: white;
+}
+
+.vowel{
+    color: red;
+}
+

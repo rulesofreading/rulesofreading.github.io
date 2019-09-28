@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .combinations-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            background-color: #2196F3;
+            border-radius: 2px;
+        }
+
+        .combination-item {
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            margin: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<a href="../index.html">
+    <div class="homeButton">Home</div>
+</a>
+
+<div class="combinations-container">
+    <div class="combination-item " id="openSyllable" onclick="setLinkInVideo(this)">Откр. слог</div>
+    <div class="combination-item" id="closedSyllable" onclick="setLinkInVideo(this)">Закр. слог</div>
+    <div class="combination-item" id="without impact" onclick="setLinkInVideo(this)"><br>без удар.</div>
+    <div class="combination-item" id="ur" onclick="setLinkInVideo(this)">ur</div>
+    <div class="combination-item" id="ur+" onclick="setLinkInVideo(this)">ur+гл</div>
+    <div class="combination-item" id="b/f/p+U+sh/ll" onclick="setLinkInVideo(this)">b/f/p+U+sh/ll</div>
+
+
+    <div class="combination-item">[ju:]</div>
+    <div class="combination-item">[&#652]</div>
+    <div class="combination-item">[&#601]</div>
+    <div class="combination-item">[&#601:]</div>
+    <div class="combination-item">[ju&#601]</div>
+    <div class="combination-item">[u]</div>
+</div>
+
+<iframe id="video" class="video" src="" allow="autoplay"></iframe>
+<script src="../js/U.js"></script>
+</body>
+</html>

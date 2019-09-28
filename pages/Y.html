@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .combinations-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            background-color: #2196F3;
+            border-radius: 2px;
+        }
+
+        .combination-item {
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            margin: 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+<a href="../index.html">
+    <div class="homeButton">Home</div>
+</a>
+
+<div class="combinations-container">
+    <div class="combination-item " id="1" onclick="setLinkInVideo(this)">Перед гл.</div>
+    <div class="combination-item" id="2" onclick="setLinkInVideo(this)">Перед согл.<br>под удар.</div>
+    <div class="combination-item" id="3" onclick="setLinkInVideo(this)">Перед согл.<br>без удар.</div>
+    <div class="combination-item" id="4" onclick="setLinkInVideo(this)">-oy</div>
+
+    <div class="combination-item">[j]</div>
+    <div class="combination-item">[ai]</div>
+    <div class="combination-item">[i]</div>
+    <div class="combination-item">[&#596i]</div>
+</div>
+
+<iframe id="video" class="video" src="" allow="autoplay"></iframe>
+<script src="../js/Y.js"></script>
+</body>
+</html>
